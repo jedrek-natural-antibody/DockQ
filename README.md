@@ -1,13 +1,13 @@
 # Modification
 
-I have included a modified version of the main file (DockQ.py -> DockQ_modified.py), which allows us to run the DockQ assessment procedure from inside.
-To do use execute:
+I have included a modified version of the main file (DockQ.py -> DockQ_modified.py), which allows us to run the DockQ assessment procedure from inside python.
+To do so execute:
 ```
 import DockQ.DockQ_modified as DockQ
 info = DockQ.main( 'model.pdb', 'native_pdb', DOCKQ_PATH )
 ```
 
-`info` is a dictionary that containst the compute values of `fnat` and `DockQ` score (`info['fnat']`, `info['DockQ']`).
+`info` is a dictionary that contains the computed values of `fnat` and `DockQ` score (`info['fnat']`, `info['DockQ']`).
 
 # DockQ
 
